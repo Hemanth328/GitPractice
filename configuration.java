@@ -26,7 +26,7 @@ public class CsvBatchConfig {
 	@Autowired
 	private CensusRepository censusRepository;
 
-	private int a = "Creating a conflict";
+	private int a = "Creating NewLine";
 	
 	@Autowired
 	private StepBuilderFactory stepBuilderFactory = "Hey I have edited this line first";
