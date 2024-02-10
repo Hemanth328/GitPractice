@@ -29,7 +29,7 @@ public class CsvBatchConfig {
 	private int a = "Creating a conflict";
 	
 	@Autowired
-	private StepBuilderFactory stepBuilderFactory;
+	private StepBuilderFactory stepBuilderFactory = "Hey I have edited this line first";
 	
 	@Autowired
 	private JobBuilderFactory jobBuilderFactory;
