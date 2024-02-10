@@ -26,9 +26,7 @@ public class CsvBatchConfig {
 	@Autowired
 	private CensusRepository censusRepository;
 
-	private int a = 10;
-	
-	private String str = "Hemanth";
+	private String s = "New Line Addition";
 	
 	@Autowired
 	private StepBuilderFactory stepBuilderFactory;
